@@ -1,0 +1,250 @@
+/* Custom CCS for Voluta social*/
+body{
+	background-color: #231f21;
+	width:100%;
+	}
+
+/*animate brand*/
+a.navbar-brand:hover{
+  animation: animationFrames linear 1s;
+  animation-iteration-count: 1;
+  transform-origin: ;
+  -webkit-animation: animationFrames linear 1s;
+  -webkit-animation-iteration-count: 1;
+  -webkit-transform-origin: ;
+  }
+
+@keyframes animationFrames{
+  0% {
+    left:0px;
+    top:0px;
+    opacity:1;
+    transform:  rotate(0deg) scaleX(1) scaleY(1) ;
+  }
+  15% {
+    left:-25px;
+    transform:  rotate(-5deg) ;
+  }
+  30% {
+    left:20px;
+    transform:  rotate(3deg) ;
+  }
+  45% {
+    left:-15px;
+    transform:  rotate(-3deg) ;
+  }
+  60% {
+    left:10px;
+    transform:  rotate(2deg) ;
+  }
+  75% {
+    left:-5px;
+    transform:  rotate(-1deg) ;
+  }
+  100% {
+    left:0px;
+    top:0px;
+    opacity:1;
+    transform:  rotate(0deg) scaleX(1) scaleY(1) ;
+  }
+}
+
+@-webkit-keyframes animationFrames {
+  0% {
+    left:0px;
+    top:0px;
+    opacity:1;
+    -webkit-transform:  rotate(0deg) scaleX(1) scaleY(1) ;
+  }
+  15% {
+    left:-25px;
+    -webkit-transform:  rotate(-5deg) ;
+  }
+  30% {
+    left:20px;
+    -webkit-transform:  rotate(3deg) ;
+  }
+  45% {
+    left:-15px;
+    -webkit-transform:  rotate(-3deg) ;
+  }
+  60% {
+    left:10px;
+    -webkit-transform:  rotate(2deg) ;
+  }
+  75% {
+    left:-5px;
+    -webkit-transform:  rotate(-1deg) ;
+  }
+  100% {
+    left:0px;
+    top:0px;
+    opacity:1;
+    -webkit-transform:  rotate(0deg) scaleX(1) scaleY(1) ;
+  }
+}
+
+/*end-animate-brand*/
+.buttons{
+	float: right;
+	margin: 93px -20px -315px -33px;
+	padding-top: 0px;
+	margin-top: 0;
+	}
+
+.buttons .share a {
+	display: block;
+	width: 74px;
+	height: 74px;
+	overflow: hidden;
+	background-color: #f4f4f4;
+	border-radius: 50%;
+	border: 2px solid #fff;
+	}
+
+.buttons .share ul {
+	list-style-type: none;
+	padding-left: 10px;
+	z-index: 1;
+	position: relative;
+	width: 3.5em;
+	transition: all 1s ease-in-out .2s;
+	}
+
+.buttons .share li {
+	margin: 7px -6px -28px 0px;
+	width: 3.5em;
+	transition: all 1s ease-in-out .2s;
+	
+	}
+.buttons a.twitter{
+	background: #55acee url(../img/social.png) 11px 19px no-repeat;
+		
+		}
+.buttons a.facebook{
+	background: #3b5998 url(../img/social.png) 11px -41px no-repeat; 	
+	}
+.buttons a.pinterest{
+	background: #cb2127 url(../img/social.png) 11px -101px no-repeat; 	
+	}
+.buttons a.youtube{
+	background: #cb2127 url(../img/social.png) 11px -180px no-repeat; 	
+	}
+.buttons a.instragram{
+	background: #416f95 url(../img/social.png) 11px -259px no-repeat; 	
+	}	
+
+@media (min-width: 48em){
+
+.buttons .share li {
+	margin: 16px -4px 13px 0px;
+	width: 3.5em;
+	transition: all 1s ease-in-out .2s;
+	}
+}
+
+.row-fix{
+	padding: 0 15px;
+	}
+.navbar-default {
+	background-color: #fff;
+	border-color: transparent;
+	box-shadow: 2px 2px 23px #B6B6B6;
+	}
+.navbar-default .navbar-nav>li>button:hover {
+	background-color: #FCBC63;
+	}
+.jumbotron img{
+	margin: 0 auto;
+	}
+.jumbotron {
+	background-color: #231f21;
+	}
+
+p {
+	color: #fff;
+	}
+
+h2{
+	margin-left: -15px;
+	margin-right: -15px;
+	padding-left: 10px;
+	height: 1.3em;
+	background-color: #fff;
+	}
+
+h3{
+	Color:#fff;
+	}
+
+@media (min-width: 48em){
+.divider-bar{
+	height: 11em;
+	border: 1px solid #332E2E;
+	float: right;
+	margin: 5em -1.3em 0 0;
+	display:block;
+	}
+}
+.divider-bar-h{
+	border: 1px solid #332E2E;
+	margin: 2em -1.1em 0 -1.1em;
+	display:block;
+	}
+
+.icon-wrapper {
+	display: inline;
+	overflow: hidden;
+	padding: 37px 12px 12px 10px;
+	background-color: #fff;
+	border-radius: 50%;
+	}
+span.glyphicon-phone-alt {
+    font-size: 3.2em;
+	}
+span.glyphicon-home {
+    font-size: 3.2em;
+	}
+span.glyphicon-envelope {
+    font-size: 3.2em;
+	}
+
+#footer{
+	width:100%;
+	height: 2.5em;
+	margin-top: 1em;
+	border-top: 1px solid #332E2E;
+	background-color: #fff;
+	color:#000;
+	font-weight:bold;
+	padding-top: 9px;
+	}
+#footer p {
+	color:#000;
+	float: left;
+	margin: 0 0 0px;
+	}
+#footer ul {
+	list-style:none;
+	}
+#footer li {	
+	display: block;
+	padding-left:1em;
+	}
+@media (min-width: 48em){
+	#footer li {	
+	display: inline;
+	padding-left:0;
+	}
+}
+#footer ul a{
+	color:#000;
+	}
+a.dropdown-toggle {
+color: #000;
+}	
+.to-top{
+	position: fixed;
+	right: 0.2%;
+	top: 95%;
+	}
